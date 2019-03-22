@@ -1,9 +1,12 @@
-# Terraform state files
-.terraform.tfstate.lock.info
-terraform.tfstate
-terraform.tfstate.backup
+#  Local .terraform directories
 **/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
 
 # VSCODE
 .vscode
-
